@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    </head>
+    <body class="background">
+        <header class="navigation-bar">
+            <ul class="nav">
+                <span><img class="logo-img"src="res/Logo.png" alt="logo"></span>
+                <span class="ul"><a href="index.html">Home</a></span>
+                <span class="ul"><a href="course.html">Course</a></span>
+                <span class="ul"><a href="contact.html">Contact</a></span>
+            </ul>
+        </header>
+        <h1 class="item-courses-background"><span class="item-courses-text">COURSE</span></h1>
+        <h1 class="item-courses-text">Courses</h1>
+        
+        <div style="display:flex; justify-content: center;" >
+            <div id="ex1" class="modal">
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+            <div  class="courses-items img1" ><img  src="res/Objet dynamique vectoriel.png" alt="img1"><div><button class="btnn btn1"><a href="#ex1" rel="modal:open">View More</a></button> </div></div> 
+            <div  class="courses-items img2" ><img  src="res/Objet dynamique vectoriel1.png" alt="img2"><div><button class="btnn btn2"><a href="#ex1" rel="modal:open">View More</a></button> </div></div>
+            <div  class="courses-items img3"><img  src="res/Objet dynamique vectoriel2.png" alt="img3"><div><button class="btnn btn3"><a href="#ex1" rel="modal:open">View More</a></button> </div></div>
+        </div>
+        <div style="display:flex; justify-content: center;" >
+            <div  class="courses-items img4" ><img  src="res/Objet dynamique vectoriel3.png" alt="img4"><div><button class="btnn btn4"><a href="#ex1" rel="modal:open">View More</a></button> </div></div> 
+            <div  class="courses-items img5" ><img  src="res/Objet dynamique vectoriel4.png" alt="img5"><div><button class="btnn btn5"><a href="#ex1" rel="modal:open">View More</a></button> </div></div>
+            <div  class="courses-items img6"><img  src="res/Objet dynamique vectoriel5.png" alt="img6"><div><button class="btnn btn6"><a href="#ex1" rel="modal:open">View More</a></button> </div></div>
+        </div>
+        <div style="display:flex; justify-content: center;" >
+            <div  class="courses-items img7" ><img  src="res/Objet dynamique vectoriel6.png" alt="img7"><div><button class="btnn btn7"><a href="#ex1" rel="modal:open">View More</a></button> </div></div> 
+            <div  class="courses-items img8" ><img  src="res/Objet dynamique vectoriel7.png" alt="img8"><div><button class="btnn btn8"><a href="#ex1" rel="modal:open">View More</a></button> </div></div>
+            <div  class="courses-items img9"><img  src="res/Objet dynamique vectoriel8.png" alt="img9"><div><button class="btnn btn9"><a href="#ex1" rel="modal:open">View More</a></button> </div></div>
+        </div>
+        <h3>Feedback</h3>
+        <input onclick="Fbold()" type="submit" value="B">
+        <input onclick="Fitalic()" type="submit" value="I">
+        <input onclick="Funderline()" type="submit" value="Underline">
+        <select onchange="Fsize()" id="size">
+            <option value="20px">20px</option>
+            <option value="30px">30px</option>
+            <option value="40px">40px</option>    
+        <select>
+            <select onchange="Ffont()" id="style">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Geneva">Geneva</option>    
+            <select>
+        <br>
+       <textarea id="demo" id="text" type="text" style="width:600px; height:200px; color:black ; font-style:normal; font-weight: normal;text-decoration:none;font-size: 20px"></textarea>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+</html>
